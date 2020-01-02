@@ -3,6 +3,7 @@ package com.tistory.kisspa;
 import com.tistory.kisspa.comp.SampleComponent;
 import com.tistory.kisspa.comp.classical.SampleForClassical;
 import com.tistory.kisspa.comp.diforjava.config.AppConfig;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -14,6 +15,7 @@ public class MainClass {
         diStyleForJava();
         diStyleForXML();
         diStyleForAnnotation();
+
     }
 
     /**
@@ -61,5 +63,6 @@ public class MainClass {
 
         String rtnVal = sampleComponent.saySomething();
         System.out.println(rtnVal);
+
     }
 }
