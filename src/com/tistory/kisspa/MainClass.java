@@ -12,9 +12,9 @@ public class MainClass {
 
     public static void main(String[] args) {
         classicalStyle();
-        diStyleForJava();
-        diStyleForXML();
-        diStyleForAnnotation();
+        //diStyleForJava();
+        //diStyleForXML();
+        //diStyleForAnnotation();
 
     }
 

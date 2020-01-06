@@ -12,7 +12,7 @@ public class SampleForClassical implements SampleComponent {
     public String saySomething() {
         lotto645 = new Lotto645();
 
-        int[] lottoNumber = lotto645.getRandomValue();
+        int[] lottoNumber = lotto645.getLottoNumber();
         return "hello, i'm SampleComponent Classical "+ Arrays.toString(lottoNumber);
     }
 }
