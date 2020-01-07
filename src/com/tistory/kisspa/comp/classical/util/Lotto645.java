@@ -30,7 +30,7 @@ public class Lotto645 {
             bountInt = getRandomInt(45);
         }
 
-        System.out.println("보너스 숫자 : "+bountInt);
+        System.out.println("Bonus Number : "+bountInt);
         lottoNumber[6] = bountInt;
 
         return lottoNumber;
